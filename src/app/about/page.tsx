@@ -58,7 +58,16 @@ export default async function AboutPage() {
           <h1 className="text-4xl font-bold tracking-tight text-brand-dark">Proje Hakkında</h1>
           <p className="text-base leading-relaxed text-brand-muted max-w-3xl">
             Bu sayfada Koç Sistem değerlendirme sürecinde bana yöneltilen soruları ve bu projeyi
-            nasıl çalıştığımı anlattım.
+            nasıl çalıştığımı anlattım. Projenin tüm kaynak kodlarına{" "}
+            <a
+              href="https://github.com/dodovlski/kocsistem"
+              target="_blank"
+              rel="noreferrer"
+              className="font-semibold text-brand-dark underline decoration-brand-red/30 decoration-2 underline-offset-4 hover:decoration-brand-red transition-colors"
+            >
+              github.com/dodovlski/kocsistem
+            </a>{" "}
+            adresinden ulaşabilirsiniz.
           </p>
 
           <div className="rounded-sm border border-brand-border bg-white p-5 shadow-sm">
@@ -97,10 +106,19 @@ export default async function AboutPage() {
               Doğukan Taha Tıraş
             </a>
             <a
-              href="https://github.com/dodovlski"
+              href="https://github.com/dodovlski/kocsistem"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-sm border border-brand-dark bg-white px-4 py-2 text-sm font-semibold text-brand-dark hover:bg-brand-dark hover:text-white transition-colors"
+            >
+              <GithubIcon className="h-4 w-4" />
+              Kaynak Kodları
+            </a>
+            <a
+              href="https://github.com/dodovlski"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-sm border border-brand-border bg-white px-4 py-2 text-sm font-semibold text-brand-muted hover:bg-gray-50 transition-colors"
             >
               <GithubIcon className="h-4 w-4" />
               github.com/dodovlski
